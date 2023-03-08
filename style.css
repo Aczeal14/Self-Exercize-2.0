@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: black;
+}
+
+/* ----header---- */
+.main-header {
+  background-color: rgba(0,0,0 .6);
+  background-image: url(download.jpeg);
+  background-blend-mode: multiply;
+  background-size: cover;
+  padding-bottom: 30px;
+}
+
+.main-header li {
+  padding: 0 5%;
+}
+
+.main-nav {
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: lighter;
+  border-bottom: 2px solid rgba(255, 255, 255, .3);
+  
+  padding: 10px;
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav a {
+  display: inline-block;
+  color: white;
+  padding: .5em;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  background-color: rgba( 255, 255, 255, .3);
+}
+
+.web-name {
+  text-align: center;
+  font-size: 9em;
+  font-family: georgia, serif;
+  color: white;
+}
+
+/* ----footer---- */
+
+.main-footer {
+  background-color: rgba(255, 255, 255, .6);
+}
+
+.main-footer p {
+  text-align: center;
+}
+
+/* ----Section Container---- */
+
+.content-container {
+  margin: 1em 2em;
+  padding: 0 1.5em;
+}
+
+.container {
+  background-color: grey;
+  border: 1px solid black;
+  border-radius: 15px;
+  max-width: 900px;
+  margin: 1em auto;
+}
+
+.container-head, .container p {
+  color: white;
+}
+
+.container-head {
+  font-family: georgia, serif;
+  text-align: center;
+  margin: 2em auto;
+  padding: 2em auto;
+  font-size: 2em;
+}
+
+.container p {
+  padding: 0 1em;
+  padding-bottom: 1em;
+}
+
+/* ----Contact---- */
+
+.content-title {
+  text-align: center;
+  color: white;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.content-left {
+  width: 35%;
+}
+
+.content-right {
+  width: 60%;
+}
+
+.content-left .ul {
+  margin-top: 1em auto;
+  text-align: center;
+}
+
+.content-left a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: .5em;
+  margin: .3em;
+  font-size: 1.2em;
+  transition: transform 0.5s;
+}
+
+.content-left a:hover {
+  background-color: rgba( 255, 255, 255, .3);
+}
+
+.content-right input, .content-right textarea {
+  width: 95%;
+  border: 0;
+  background: #262626;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+}
+
+.btn {
+  background: #262626;
+  color: white;
+  display: inline-block;
+}
+
+.submit {
+  justify-content: end;
+  border-radius: 6px;
+  padding: 1em 2em;
+  font-size: 16 px;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background: rgba(255,255,255, .3);
+}
+
+/* ----News---- */
+
+.header {
+  background: grey;
+  color:white;
+  border-bottom: 2px solid rgba(255,255,255, .6);
+  border-top: 1px solid rgba(255,255,255, .6);
+  text-align: right;
+}
+
+.header .add-button {
+  background: whitesmoke;
+  color: #262626;
+  width: 25px;
+  height: 25px;
+  border-radius: 30%;
+  cursor: pointer;
+}
+
+.section-container {
+  border: 1px solid white;
+  border-radius: 15px;
+  margin: 5%;
+  margin-bottom: 2em;
+}
+
+.section-title {
+  width: 60%;
+  font-size: 1em;
+  padding: 1em;
+}
+
+.section-date {
+  width: 35%;
+}
+
+.section-container p {
+  margin-top: 1.2em;
+}
+
+.border-title {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-bottom: 1px solid white;
+  font-family: georgia, serif;
+  align-content: center;
+}
+
+/* ----Home---- */
+
+.search-bar {
+  text-align: center;
+}
+
+
+
+/* ----Phone Screen---- */
+
+@media only screen and (max-width: 600px) {
+  .web-name {
+    font-size: 4em;
+  }
+}
